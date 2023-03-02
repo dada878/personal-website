@@ -1,30 +1,48 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <PageNavbar></PageNavbar>
+  <router-view />
 </template>
 
+<script setup lang="ts">
+import PageNavbar from './components/PageNavbar.vue';
+
+
+</script>
+
 <style lang="scss">
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #47525e;
+  overflow-y: overlay;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #e0e2e9;
 }
 
-nav {
-  padding: 30px;
+::-webkit-scrollbar {
+  width: 7px;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  background-color: #a8a8a818;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(214, 214, 214, 0.377); 
+  border-radius: 1rem;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(214, 214, 214, 0.541);  
 }
 </style>
