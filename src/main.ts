@@ -6,6 +6,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faDiscord, faGithub, faInstagram, faPython, faUnity, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import 'animate.css';
+
 library.add(faDiscord, faGithub, faInstagram, faEnvelope, faPython, faUnity, faHtml5);
 
 createApp(App)
