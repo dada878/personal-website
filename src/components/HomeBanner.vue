@@ -2,10 +2,10 @@
   <div class="banner">
     <div>
       <h1 class="title">Dada878</h1>
-      <h2 class="subtitle">只是一個普通的個人網站</h2>
+      <h2 class="subtitle">歡迎你來造訪本網站 owo</h2>
     </div>
     <div class="links">
-      <a target="_blank" href="https://google.com">
+      <a target="_blank" href="https://github.com/dada878">
         <font-awesome-icon icon="fa-brands fa-github" />
       </a>
       <a target="_blank" href="https://google.com">
