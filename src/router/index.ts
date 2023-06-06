@@ -1,5 +1,8 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import ProjectsView from '../views/ProjectsView.vue';
+import BlogView from '../views/BlogView.vue';
+import BlogPostView from '../views/BlogPostView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,17 +13,17 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/projects',
     name: 'projects',
-    component: () => import('../views/ProjectsView.vue')
+    component: ProjectsView
   },
   {
     path: '/blog',
     name: 'blog',
-    component: () => import('../views/BlogView.vue')
+    component: BlogView
   },
   {
     path: '/blog/:id',
     name: 'blog-post',
-    component: () => import('../views/BlogPostView.vue')
+    component: BlogPostView
   }
 ]
 
