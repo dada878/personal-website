@@ -42,10 +42,10 @@
                     cursor: pointer;
                     background-color: #e0e2e91e;
                 }
-                &:is(.router-link-exact-active) {
-                    color: #ffffff;
-                    background-color: #e0e2e91e;
-                }
+                // &:is(.router-link-exact-active) {
+                //     color: #ffffff;
+                //     background-color: #e0e2e91e;
+                // }
             }   
         }
     }

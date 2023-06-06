@@ -10,9 +10,9 @@ import PageNavbar from './components/PageNavbar.vue';
 </script>
 
 <style lang="scss">
-.router {
-  margin-top: 3rem;
-}
+// .router {
+//   margin-top: 3rem;
+// }
 
 html,
 body,
